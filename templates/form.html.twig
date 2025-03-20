@@ -1,0 +1,6 @@
+{% block ux_geocoder_widget %}
+    {{ form_widget(form) }}
+    {% if map %}
+        {{ ux_map(map, { style: 'height:300px;z-index:0;' }) }}
+    {% endif %}
+{% endblock ux_geocoder_widget %}

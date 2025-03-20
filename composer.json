@@ -1,0 +1,46 @@
+{
+  "name": "akyoscommunication/ux-geocoder",
+  "type": "library",
+  "description": "UX fields geocoder for Symfony using php-geocoder",
+  "keywords": [
+    "symfony-ux",
+    "PHP",
+    "attribute",
+    "live component",
+    "php-geocoder"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lilian Carneau",
+      "email": "lilian.carneau@gmail.com"
+    },
+    {
+      "name": "Symfony Community",
+      "homepage": "https://symfony.com/contributors"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Akyos\\UXGeocoder\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.3",
+    "symfony/ux-live-component": "^2.19",
+    "symfony/ux-map": "^2.23"
+  },
+  "require-dev": {
+    "psr/log": "^1|^2|^3",
+    "symfony/dependency-injection": "^6.4|^7.0",
+    "symfony/form": "^6.4|^7.0",
+    "symfony/http-kernel": "^6.4|^7.0"
+  },
+  "extra": {
+    "thanks": {
+      "name": "symfony/ux",
+      "url": "https://github.com/symfony/ux"
+    }
+  },
+  "minimum-stability": "stable"
+}

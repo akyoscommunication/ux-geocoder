@@ -1,0 +1,30 @@
+{
+  "name": "@akyoscommunication/ux-geocoder",
+  "description": "UX fields geocoder for Symfony using php-geocoder",
+  "main": "dist/main.js",
+  "version": "1.0.0",
+  "license": "MIT",
+  "config": {
+    "css_source": "src/app.css"
+  },
+  "symfony": {
+    "controllers": {
+      "ux-geocoder-tomselect": {
+        "main": "dist/controllers/ux-geocoder-tomselect_controller.js",
+        "name": "ux-geocoder-tomselect",
+        "webpackMode": "eager",
+        "fetch": "eager",
+        "enabled": true
+      }
+    },
+    "importmap": {
+      "@hotwired/stimulus": "^3.0.0"
+    }
+  },
+  "peerDependencies": {
+    "@hotwired/stimulus": "^3.0.0"
+  },
+  "devDependencies": {
+    "@hotwired/stimulus": "^3.0.0"
+  }
+}
