@@ -26,11 +26,6 @@ class UXGeocoderExtension extends Extension implements PrependExtensionInterface
                         __DIR__.'/../../assets/dist' => '@akyoscommunication/ux-geocoder',
                     ],
                 ],
-                'translator' => [
-                    'paths' => [
-                        __DIR__.'/../../translations',
-                    ],
-                ],
             ]);
         }
     }
