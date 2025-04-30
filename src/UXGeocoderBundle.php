@@ -1,5 +1,7 @@
 <?php
 
+namespace Akyos\UXGeocoder;
+
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class UXGeocoderBundle extends Bundle
